@@ -65,7 +65,6 @@ try{
     $ossClient->uploadFile($ex_config['oss_bucket'], $object, $filePath);
     $info['state'] = 'SUCCESS';
     $info['url'] = $ex_config['oss_url'].$info['title'];
-//    $info['url'] = $ossClient->signUrl($ex_config['oss_bucket'],$object,'7200');/*私有访问  签名*/
 } catch(OssException $e) {
     printf(__FUNCTION__ . ": FAILED\n");
     printf($e->getMessage() . "\n");
