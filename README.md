@@ -1,4 +1,4 @@
-# ueditor-master-qiniu-cos-oss-local
+# 百度富文本编辑器ueditor，封装云对象存储
 
 ###
 基于百度的ueditor,封装了主流云对象存储。
